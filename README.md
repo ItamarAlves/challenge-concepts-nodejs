@@ -10,14 +10,17 @@ Aplicação para armazenar repositórios do seu portfólio, que irá permitir a 
 ```shell
 $ git clone https://github.com/ItamarAlves/challenge-concepts-nodejs.git
 ```
+
 #### Com seu repositório baixado na sua máquina, execute o comando na pasta do projeto clonado para instalar todas as dependências.
 ```shell
 $ yarn
 ```
+
 #### Para rodar execute
 ```shell
 $ yarn dev
 ```
+
 ### Rotas 
 #### Listas todos os repositórios
 ```shell
@@ -67,4 +70,4 @@ $ curl --request DELETE \
 ```shell
 $ curl --request POST \
   --url http://127.0.0.1:0000/repositories/id/like
-```  
+```
